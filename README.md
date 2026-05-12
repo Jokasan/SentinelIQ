@@ -1,16 +1,75 @@
-# React + Vite
+# 🛡️ SentinelIQ  
+### AI-Powered Financial Fraud Intelligence Platform
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+SentinelIQ is a modern fraud detection platform built using **Machine Learning, FastAPI, React, and Real-World Financial Transaction Data**.  
 
-Currently, two official plugins are available:
+The system analyzes transactions in real time, detects anomalies, scans CSV batches, and generates intelligent fraud-risk insights through an interactive analytics dashboard.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+# 🚀 Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🔍 Real-Time Fraud Detection
+- Predicts whether a transaction is fraudulent or safe
+- Uses a trained **Random Forest Classifier**
+- Generates fraud probability scores
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ⚠️ Anomaly Detection Engine
+- Isolation Forest–based anomaly monitoring
+- Detects suspicious transaction behavior patterns
+- Adds secondary risk intelligence layer
+
+---
+
+## 📂 CSV Batch Analysis
+Upload complete transaction datasets and generate:
+
+- Total transactions processed
+- Fraud count
+- Safe transaction count
+- Fraud rate
+- Batch risk summaries
+- Interactive charts
+
+---
+
+## 📊 Interactive Dashboard
+Modern fintech-inspired UI with:
+- Real-time risk visualization
+- Fraud distribution charts
+- Batch analytics
+- Transaction simulation console
+- Glassmorphism-based design system
+
+---
+
+# 🧠 Tech Stack
+
+| Technology | Usage |
+|---|---|
+| React + Vite | Frontend |
+| Tailwind CSS | Styling |
+| FastAPI | Backend API |
+| Python | ML & Backend |
+| Scikit-Learn | ML Models |
+| Pandas | Data Processing |
+| Recharts | Analytics Visualization |
+| Kaggle Dataset | Real-world fraud data |
+
+---
+
+# 🏗️ System Architecture
+
+```text
+Frontend (React)
+        ↓
+FastAPI Backend
+        ↓
+ML Models
+(Random Forest + Isolation Forest)
+        ↓
+Fraud Prediction Engine
+        ↓
+Analytics Dashboard

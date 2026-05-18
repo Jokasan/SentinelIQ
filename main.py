@@ -71,7 +71,7 @@ async def batch_predict(file: UploadFile = File(...)):
 
     missing_cols = [col for col in feature_names if col not in df.columns]
 
-    if missing_cols:
+    if missing_cols: 
         return {
             "error": "CSV missing required columns",
             "missing_columns": missing_cols

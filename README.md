@@ -9,21 +9,21 @@ The system analyzes transactions in real time, detects anomalies, scans CSV batc
 
 # 🚀 Features
 
-## 🔍 Real-Time Fraud Detection
+## 🔍 Real-Time Fraud Detection :
 - Predicts whether a transaction is fraudulent or safe
 - Uses a trained **Random Forest Classifier**
 - Generates fraud probability scores
 
 ---
 
-## ⚠️ Anomaly Detection Engine
+## ⚠️ Anomaly Detection Engine :
 - Isolation Forest–based anomaly monitoring
 - Detects suspicious transaction behavior patterns
 - Adds secondary risk intelligence layer
 
 ---
 
-## 📂 CSV Batch Analysis
+## 📂 CSV Batch Analysis :
 Upload complete transaction datasets and generate:
 
 - Total transactions processed

@@ -7,9 +7,9 @@ The system analyzes transactions in real time, detects anomalies, scans CSV batc
 
 ---
 
-# 🚀 Features
+#  Features
 
-## 🔍 Real-Time Fraud Detection :
+##  Real-Time Fraud Detection :
 - Predicts whether a transaction is fraudulent or safe
 - Uses a trained **Random Forest Classifier**
 - Generates fraud probability scores

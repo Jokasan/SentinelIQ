@@ -60,7 +60,7 @@ Modern fintech-inspired UI with:
 
 ---
 
-# 🏗️ System Architecture
+#  System Architecture
 
 ```text
 Frontend (React)

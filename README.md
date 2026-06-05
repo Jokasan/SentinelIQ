@@ -1,4 +1,4 @@
-# 🛡️ SentinelIQ  
+#  SentinelIQ  
 ### AI-Powered Financial Fraud Intelligence Platform
 
 SentinelIQ is a modern fraud detection platform built using **Machine Learning, FastAPI, React, and Real-World Financial Transaction Data**.  
